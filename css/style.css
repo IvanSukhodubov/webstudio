@@ -3,10 +3,14 @@
     --actient-color:#2196F3;
     --text-color:#212121;
     --desk-color:#757575;
-    --main-color:#fff;
+    --main-color:hsl(0, 0%, 100%);
     --team-background:#F5F4FA;
     --foterr-background:#2F303A;
     --fotter-contact:rgba(255, 255, 255, 0.60);
+    header>a{font-family: Raleway;}
+nav>ul>li{font-family: Roboto;}
+ul>li{font-family: Roboto;}
+section
 
 
 
