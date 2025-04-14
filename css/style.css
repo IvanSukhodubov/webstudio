@@ -22,9 +22,28 @@ body{
     color: var(--actient-color);
 font-family: Raleway;
 font-size: 26px;
-font-weight: 700;
+font-weight: 700px;
 line-height: 1.38;
 letter-spacing: 0.78px;
+}
+
+.header{
+    display: flex;
+    gap: 50px;
+
+}
+.header-logo{
+    margin-right: 93px;
+
+}
+.header-list{
+    display: flex;
+    gap: 50px;
+    margin-right: 344px;
+}
+.header-items{
+    display: flex;
+    gap: 50px;
 }
 .header-color{
     color: var(--logo-color);
@@ -57,6 +76,9 @@ letter-spacing: 0.28px;
 }
 .hero-title{
     color: var(--main-color);
+   margin-left: auto;
+   margin-right: auto;
+
 
 text-align: center;
 
@@ -68,6 +90,8 @@ text-transform: uppercase;
 }
 .hero-button{
     color: var(--main-color);
+    
+    justify-content: center;
 
 text-align: center;
 
@@ -80,6 +104,11 @@ border-radius: 4px;
 background: var(--actient-color);
 
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.about-list{
+    display: flex;
+  margin-bottom: 10px;
+gap: 30px;
 }
 .about-title{
     color: var(--text-color);
@@ -103,9 +132,18 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
+
 }
+
+.work-list{
+    display: flex;
+    gap: 30px;
+}
+
 .team{
     background-color: var(--team-background);
+    display: flex;
+    gap: 30px;
 }
 .team-title{
     color: var(--text-color);
