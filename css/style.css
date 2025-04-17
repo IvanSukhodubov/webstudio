@@ -1,8 +1,5 @@
-@font-face {
-    font-family: '';
-    src: url(../fonts/Wisdom_Script_AJ.otf);
-    src: url(../fonts/WisdomScriptAJ.ttf) format("ttf");
-  }
+
+  
   
 :root{
 
@@ -15,6 +12,15 @@
     --foterr-background:#2F303A;
     --fotter-contact:rgba(255, 255, 255, 0.60);
 }
+
+
+.container{
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+    outline: 1px solid red ;
+}
+
 body{
     font-family: Roboto;
 }
@@ -171,6 +177,7 @@ letter-spacing: 0.48px;
 }
 .footer{
     background-color: var(--foterr-background);
+    
 }
 .footer-logo{
     color: var(--actient-color);
@@ -207,11 +214,15 @@ letter-spacing: 0.42px;
     font-weight: 500;
     line-height: 1.62; /* 162.5% */
     letter-spacing: 0.48px;
+    display: flex;
+   
 }
-.web-item:hover,
-.web-item:focus{
+.web-button:hover,
+.web-button:focus{
     background-color: var(--actient-color);
 }
+
+
 .web-title{
     color: var(--text-color);
      font-size: 18px;
@@ -231,4 +242,5 @@ letter-spacing: 0.42px;
         line-height: 1.87;
         /* 187.5% */
         letter-spacing: 0.48px;
-}
+    }
+    
