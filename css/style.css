@@ -153,7 +153,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .about{
     padding-top: 94px;
-    padding-bottom: 118px;
+    padding-bottom: 94px;
 }
 .about-list{
     display: flex;
@@ -167,6 +167,7 @@ font-weight: 700;
 line-height: 1.14;
 letter-spacing: 0.42px;
 text-transform: uppercase;
+margin-bottom: 10px;
 }
 .about-text{
     color: var(--desk-color);
@@ -183,7 +184,7 @@ font-size: 36px;
 font-weight: 700;
 line-height: 1.16;
 letter-spacing: 1.08px;
-padding-bottom: 50px;
+margin-bottom: 50px;
 
 }
 
@@ -193,7 +194,7 @@ padding-bottom: 50px;
 }
 
 .team {
-    padding: 94px 0;
+
     background-color: var(--team-bg-color);
 }
 
@@ -205,8 +206,7 @@ padding-bottom: 50px;
     line-height: 1.16;
     letter-spacing: 1.08px;
     margin-bottom: 50px;
-    padding-top: 94px;
-    padding-bottom: 50px;
+   
 }
 
 .team-list {
@@ -242,23 +242,41 @@ padding-bottom: 50px;
     letter-spacing: 0.48px;
     margin-top: 10px;
 }
+.team-name{
+    color: #212121;
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.48px;
+}
 .team-text{
-    margin-left:70px ;
-    margin-right:70px ;
+color: #757575;
+
+    text-align: center;
+    font-size: 16px;
+font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.48px;
 }
 .team-img {
     display: flex;
     gap: 30px;
 width: 100%;
     height: 260px;
-    flex-shrink: 0;
+    justify-content:center
+  
 }
 .footer{
     background-color: var(--foterr-background);
+    padding: 60px 0;
     
 }
 .footer-logo{
     color: var(--actient-color);
+    display: block;
+    margin-bottom: 20px;
+
 
 font-family: Raleway;
 font-size: 26px;
@@ -273,6 +291,12 @@ font-size: 14px;
 font-weight: 400;
 line-height: 1.71; /* 171.429% */
 letter-spacing: 0.42px;
+}
+.footer-list{
+    margin-top: 9px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
 }
 .footer-contact{
     color: var(--fotter-contact);
@@ -295,9 +319,15 @@ letter-spacing: 0.42px;
     display: flex;
    
 }
-.web-button:hover,
-.web-button:focus{
+.web-item:hover{
     background-color: var(--actient-color);
+    color: var(--main-color);
+
+}
+.web-item:focus{
+    background-color: var(--actient-color);
+    color: var(--main-color);
+  
 }
 
 
@@ -320,5 +350,24 @@ letter-spacing: 0.42px;
         line-height: 1.87;
         /* 187.5% */
         letter-spacing: 0.48px;
+    }
+    .web-foto{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .web-item{
+      
+                color: var(--text-color);
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1.62;
+                letter-spacing: 0.48px;
+                padding: 6px 22px;
+                border-radius: 4px;
+                background-color: var(--button-and-our-section-background);
+                justify-content: center;
+                flex-direction: row;
+        
     }
     
