@@ -353,11 +353,18 @@ letter-spacing: 0.42px;
     }
     .web-foto{
         display: flex;
-        justify-content: center;
+        flex-wrap: wrap;
+    
+    width: 370px;
+        height: 294px;
+        flex-shrink: 0;
+           
         
     }
     .web-item{
-      
+                display: flex;
+                    flex-wrap: wrap;
+                    row-gap: 8px;
                 color: var(--text-color);
                 font-size: 16px;
                 font-weight: 500;
@@ -368,6 +375,15 @@ letter-spacing: 0.42px;
                 background-color: var(--button-and-our-section-background);
                 justify-content: center;
                 flex-direction: row;
+
+          
+}
         
+  
+    .web-lists{
+            display: flex;
+                flex-wrap: wrap;
+                gap: 30px;
+                row-gap: 94px;
     }
     
