@@ -147,7 +147,9 @@ body {
  gap: 30px;
 
 }
-
+.about-item{
+  
+}
 .about-title {
   color: var(--text-color);
   font-size: 14px;
