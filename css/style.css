@@ -229,6 +229,8 @@ background-size: 70px;
 .team-item {
   background-color: var(--main-color);
   margin-bottom: 9px;
+border-radius: 0px 0px 4px 4px;
+box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px 0px rgba(0, 0, 0, 0.20)
 }
 
 .team-box {
@@ -347,6 +349,8 @@ background-size: 70px;
 .web-button:hover {
   background-color: var(--actient-color);
   color: var(--main-color);
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12)
 }
 
 .web-title {
@@ -385,4 +389,7 @@ background-size: 70px;
 .web-items {
   outline: 1px solid #eee;
   flex-basis: calc((100% - 60px) / 3);
+}
+.web-items:hover{
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 1px 4px 6px 0px rgba(0, 0, 0, 0.16)
 }
