@@ -564,6 +564,11 @@ fill: var(--main-color);
   display: flex;
   justify-content: center;
   align-items: center;
+  opacity: 1;
+}
+.is-hidden{
+  opacity: 0;
+  pointer-events: none;
 }
 .model {
   background-color: #FFFFFF;

@@ -43,7 +43,7 @@
       <section class="hero">
         <div class="container hero-box">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button type="button" class=" hero-button">Замовити послугу</button>
+        <button data-modal-open type="button" class=" hero-button">Замовити послугу</button>
         </div>
       </section>
       <section class="about">
@@ -361,10 +361,10 @@
     </div>
       </div>
     </footer>
-    <div class="backdrop">
+    <div data-modal class="backdrop is-hidden">
       <div class="model">
-       <button class="model-close" type="button"><svg class="model-icon">
-        <use href="./img/symbol-defs.svg#icon-close"></use>
+       <button data-modal-close class="model-close" type="button"><svg class="model-icon">
+        <use  href="./img/symbol-defs.svg#icon-close"></use>
        </svg>
       </button>
       <h2 class="model-title">Залиште свої дані, ми вам передзвонимо</h2>
@@ -408,8 +408,10 @@
       </form>
     </div>
   </div>
-  <script type="module" src="./js/model.js"></script>
+ 
       </div>
     </div>
+    <script type="module" src="./js/model.js"></script>
   </body>
+
 </html>
