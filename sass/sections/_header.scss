@@ -15,10 +15,13 @@
 }
 
 .header {
-    display: flex;
-    gap: 50px;
+    background-color: var(--main-color);
     padding-top: 24px;
     padding-bottom: 25px;
+    border-bottom: solid 1px var(--line-color);
+    position: fixed;
+    z-index: 1;
+    width: 100%;
 }
 
 .header-logo {
