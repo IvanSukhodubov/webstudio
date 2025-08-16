@@ -30,7 +30,7 @@
             <a href="mailto:info@devstudio.com" class="header-contact"><svg class="header-icon">
                 <use href="./img/symbol-defs.svg#icon-envelope"></use>
              </svg>info@devstudio.com</a>
-        </li>
+        </li>  
         <li class="header-item">
             <a href="tel:+380961111111" class="header-contact"><svg class="header-icon">
                 <use href="./img/symbol-defs.svg#icon-smartphone"></use>
@@ -249,7 +249,7 @@
             </li>
             <li class="team-elem">
               <a href="" class="team-link">
-                  <svg class="team-icon">
+                  <svg class="team-icon">§ô
                       <use href="./img/symbol-defs.svg#icon-linkedin"></use>
                   </svg>
               </a>
@@ -360,7 +360,7 @@
   </ul>
     </div>
         <form class="footer-form">
-          <h3>ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
+          <h3  >ПІДПИШІТЬСЯ НА РОЗСИЛКУ</h3>
             <input type="email" placeholder="E-mail" required>
             <button type="submit">
                 Підписатися
@@ -373,52 +373,50 @@
     </footer>
     <div data-modal class="backdrop is-hidden">
       <div class="model">
-       <button data-modal-close class="model-close" type="button"><svg class="model-icon">
-        <use  href="./img/symbol-defs.svg#icon-close"></use>
-       </svg>
-      </button>
-      <h2 class="model-title">Залиште свої дані, ми вам передзвонимо</h2>
-      <form class="modal-form">
-        <label class="model-label"
-          >Ім'я
-          <input required class="model-input" type="text" />
-          <svg class="model-ikon">
-            <use href="./img/symbol-defs.svg#icon-person"></use>
+        <button class="model-close" data-modal-close type="button">
+          <svg class="model-icon">
+            <use href="./img/symbol-defs.svg#icon-close"></use>
           </svg>
-        </label>
-        <label class="model-label"
-          >Телефон
-          <input placeholder="Введіть у форматі 050 000 00 00" pattern="0\d{2}\s\d{3}\s\d{2}\s\d{2}" required class="model-input" type="tel" />
-          <svg class="model-ikon">
-            <use href="./img/symbol-defs.svg#icon-phone"></use>
-          </svg>
-        </label>
-        <label class="model-label"
-          >Пошта
-          <input required class="model-input" type="email" />
-          <svg class="model-ikon">
-            <use href="./img/symbol-defs.svg#icon-email-modal"></use>
-          </svg>
-        </label>
-        <label class="model-label"
-          >Коментар
-          <textarea
-            placeholder="Введіть текст"
-            class="model-comment"
-          ></textarea>
-        </label>
-        <label class="model-box">
-          <input required type="checkbox" class="model-check" />
-          Погоджуюся з розсилкою та приймаю
-          <a href="" class="model-link">Умови договору</a>
-        </label>
-        <div class="model-frap">
-          <button type="submit" class="model-sent">Відправити</button>
-        </div>
-      </form>
-    </div>
-  </div>
- 
+        </button>
+        <h2 class="model-title">Залиште свої дані, ми вам передзвонимо</h2>
+        <form class="modal-form">
+          <label class="model-label"
+            >Ім'я
+            <input required class="model-input" type="text" />
+            <svg class="model-ikon">
+              <use href="./img/symbol-defs.svg#icon-person"></use>
+            </svg>
+          </label>
+          <label class="model-label"
+            >Телефон
+            <input placeholder="Введіть у форматі 050 000 00 00" pattern="0\d{2}\s\d{3}\s\d{2}\s\d{2}" required class="model-input" type="tel" />
+            <svg class="model-ikon">
+              <use href="./img/symbol-defs.svg#icon-person"></use>
+            </svg>
+          </label>
+          <label class="model-label"
+            >Пошта
+            <input required class="model-input" type="email" />
+            <svg class="model-ikon">
+              <use href="./img/symbol-defs.svg#icon-person"></use>
+            </svg>
+          </label>
+          <label class="model-label"
+            >Коментар
+            <textarea
+              placeholder="Введіть текст"
+              class="model-comment"
+            ></textarea>
+          </label>
+          <label class="model-box">
+            <input required type="checkbox" class="model-check" />
+            Погоджуюся з розсилкою та приймаю
+            <a href="" class="model-link">Умови договору</a>
+          </label>
+          <div class="model-frap">
+            <button type="submit" class="model-sent">Відправити</button>
+          </div>
+        </form>
       </div>
     </div>
     <script type="module" src="./js/model.js"></script>
