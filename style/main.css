@@ -725,6 +725,7 @@ body {
 
 .web-wrap {
   position: relative;
+  overflow: hidden;
 }
 
 .web-owerlay {
@@ -741,9 +742,10 @@ body {
   height: 100%;
   padding: 63px 24px;
   opacity: 0;
-  transition-property: opacity;
+  transition-property: opacity, transform;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transform: translateY(100%);
 }
 
 .web-items:hover {
@@ -751,6 +753,7 @@ body {
 }
 .web-items:hover .web-owerlay {
   opacity: 1;
+  transform: translateY(0);
 }
 
 .backdrop {
@@ -772,8 +775,12 @@ body {
   pointer-events: none;
 }
 
+.is-hidden .model {
+  transform: translate(0) rotate(360deg) scale(0);
+}
+
 .model {
-  background-color: #FFFFFF;
+  background-color: var(--main-color);
   width: 528px;
   height: 581px;
   border-radius: 4px;
