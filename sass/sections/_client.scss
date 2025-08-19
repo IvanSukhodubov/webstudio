@@ -29,7 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-      transition-property: color;
+      transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -45,4 +45,8 @@
 .client-icon {
     width: 106px;
     height: 60px;
-    fill: #AFB1B8; }
+    fill: #AFB1B8; 
+       transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

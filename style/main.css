@@ -401,7 +401,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition-property: color;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -417,6 +417,9 @@ body {
   width: 20px;
   height: 20px;
   fill: #AFB1B8;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client {
@@ -448,7 +451,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition-property: color;
+  transition-property: border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -464,6 +467,9 @@ body {
   width: 106px;
   height: 60px;
   fill: #AFB1B8;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer {
@@ -540,7 +546,7 @@ body {
   justify-content: center;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
-  transition-property: color;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -663,7 +669,7 @@ body {
   border-radius: 4px;
   background: var(--team-background);
   border: none;
-  transition-property: color;
+  transition-property: background-color, color, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -671,7 +677,6 @@ body {
 .web-button:hover {
   background-color: var(--actient-color);
   color: var(--main-color);
-  border-radius: 4px;
   box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
@@ -713,6 +718,9 @@ body {
 .web-items {
   outline: 1px solid #eee;
   flex-basis: calc((100% - 60px) / 3);
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .web-wrap {
@@ -733,6 +741,9 @@ body {
   height: 100%;
   padding: 63px 24px;
   opacity: 0;
+  transition-property: opacity;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .web-items:hover {
