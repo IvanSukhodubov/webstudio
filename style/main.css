@@ -172,8 +172,13 @@ body {
   background-position: center;
   background-size: cover;
 }
-
-.hero-title {
+.hero__box {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  flex-direction: column;
+}
+.hero__title {
   color: var(--main-color);
   margin-left: auto;
   margin-right: auto;
@@ -184,24 +189,10 @@ body {
   /* 136.364% */
   letter-spacing: 2.64px;
   text-transform: uppercase;
-}
-
-.hero-box {
-  display: flex;
-  align-items: center;
-  justify-items: center;
-  flex-direction: column;
-}
-
-.hero-title {
-  display: flex;
   width: 696px;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 30px;
 }
-
-.hero-button {
+.hero__button {
   color: var(--main-color);
   padding: 10px 32px;
   text-align: center;
